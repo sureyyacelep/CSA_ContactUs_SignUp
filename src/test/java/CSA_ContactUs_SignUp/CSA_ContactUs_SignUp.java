@@ -14,7 +14,6 @@ public class CSA_ContactUs_SignUp {
     WebDriver driver;
 
     @Test
-
     public void Contact() throws InterruptedException {
         //Open the website
         driver = WebDriverFactory.getDriver("chrome");
@@ -87,6 +86,7 @@ public class CSA_ContactUs_SignUp {
             System.out.println("Send message text Failed!");
         }
     }
+    
     @Test
     public void SignUp() throws InterruptedException {
         driver = WebDriverFactory.getDriver("chrome");
